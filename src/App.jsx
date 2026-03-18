@@ -38,6 +38,7 @@ import chatgpt from './assets/chatgpt.png';
 import lovable from './assets/lovable.png';
 import cursorLogo from './assets/cursor.png';
 import nanobanana from './assets/nanobanana.jpg';
+import illustrator from './assets/illustrator.png'
 
 /**
  * IMPORTANTE (sin side-effects):
@@ -230,7 +231,7 @@ const LANGUAGES_LIST = [
 
 const TOOLS_DATA = {
   "Diseño y contenido digital": [
-    { name: "Illustrator", customUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/500px-Adobe_Illustrator_CC_icon.svg.png", color: "FF9A00" },
+    { name: "Illustrator", customIcon: illustrator },
     { name: "Photoshop", customIcon: photoshop },
     { name: "Lightroom", customIcon: lightroom },
     { name: "Affinity", customIcon: affinity },
